@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    padding: auto;
+    background: burlywood;
+}
+
+header {
+    display: flex;
+    background-color: crimson;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    justify-content: space-between;
+    padding: 12px;
+    color: white;
+    align-items: center;
+}
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: segoe print;
+}
+
+header ul {
+    display: inherit;
+    list-style: none;
+    align-items: inherit;
+}
+
+header ul li {
+    margin-inline: 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 159px;
+    color: #e9dedea6;
+    padding: 1em 0em;
+    position: relative;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-clothes {
+    position: absolute;
+    top: 16vh;
+    left: 5vw;
+    
+}
+
+.contain-clothes img {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    margin-inline: 23px;
+    border-radius: 10px;
+}
+
+.contain-shoes {
+    position: absolute;
+    top: 16vh;
+    left: 50vw;
+}
+
+.contain-shoes img {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    margin-inline: 23px;
+    border-radius: 10px;
+}
+
+.contain-glasses {
+    position: absolute;
+    top: 55vh;
+    left: 5vw;
+}
+
+.contain-glasses img {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    margin-inline: 23px;
+    border-radius: 10px;
+}
+
+.contain-watches {
+    position: absolute;
+    top: 55vh;
+    left: 50vw;
+}
+    
+.contain-watches img {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    margin-inline: 23px;
+    border-radius: 10px;
+}
+
+.contain-cologne {
+    position: absolute;
+    top: 95vh;
+    left: 5vw;
+}
+
+.contain-cologne img {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    margin-inline: 23px;
+    border-radius: 10px;
+}
+
+.filter{
+    padding: 10px 16px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
